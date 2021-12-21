@@ -9,6 +9,7 @@ package operators;
  *  5. Bitwise Operators -> Bitwise AND (&),Bitwise OR(|)
  *  6. Ternary Operators -> ? :
  *  7. Assignment Operators -> = ,!=,+=,-=,*=,/=,%=,&=,^=,|=
+ *  8. Relational Operators -> <,>,<=,>=
  */
 public class Operators {
     public static void main(String[] args) {
@@ -89,5 +90,9 @@ public class Operators {
         n-=5; // n = n-5 = 10
         m*=2; //m = m*2 = 20
         n/=3; //n =n/3 = 5
+
+        //Relational Operators
+        System.out.println(m<=10);
+        System.out.println(n>=10);
     }
 }

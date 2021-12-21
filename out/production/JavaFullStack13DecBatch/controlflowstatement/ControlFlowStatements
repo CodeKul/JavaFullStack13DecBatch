@@ -1,0 +1,12 @@
+3 Types of Control flow statements
+1. Decision Making Stmts
+        a) if stmts
+        b) switch stmts
+2. Loop Stmts
+        a) do while
+        b) while
+        c) for loop
+        d) for-each loop
+3. Jump Stmts
+        a) break stmt
+        b) continue stmt
