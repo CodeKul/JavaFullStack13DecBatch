@@ -80,3 +80,5 @@ public class DecisionMakingStatements {
         }
     }
 }
+
+// int no1=5, no2=7,no3=55; find out max/min no
