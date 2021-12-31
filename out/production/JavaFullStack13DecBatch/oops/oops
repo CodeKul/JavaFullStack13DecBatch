@@ -1,0 +1,26 @@
+Object Oriented Programming
+
+1. Object - real world entity. Pen,chair,tables - states(properties) and behaviours
+            instance of class,
+            contains an address(memory address).
+
+
+2. Class - collection objects.(logical entity)
+           a blueprint.
+           doesn't consume any space
+           contains methods,fields,constructor,blocks,nested classes & interface
+
+
+3.Inheritance - when one object acquires all the properties and behaviours of parent object.
+                provide code reusability.
+                achieve polymorphism(runtime)
+
+4. Polymorphism - one form of many things
+                  one tasks is performed in diff ways
+                  use method overloading and method overriding
+
+5 Abstraction - hiding internal details & showing functionality
+
+6. Encapsulation - wrapping up data together into single unit
+
+

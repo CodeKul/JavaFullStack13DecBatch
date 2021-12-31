@@ -1,0 +1,12 @@
+1. represents IS-A relationship
+2. code re-usability - to reuse the fields & methods of the exiting class
+3. method overriding
+4. extends - keyword
+           - indicates that you are making new class that derives from exiting class
+
+5. Types
+        a) Single
+        b) Multilevel
+        c) Hierarchical
+        d) Multiple
+        e) Hybrid
