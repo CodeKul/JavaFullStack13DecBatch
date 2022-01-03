@@ -1,0 +1,15 @@
+Method Overloading
+ - a class has multiple methods with same name but with diff arguments or parameters
+
+Ex .
+void add(int a,int b)
+
+void add(int a,int b,int c)
+
+void add(float a,float b)
+
+ways
+1. by changing no. of arguments
+2. by changing the data type
+
+Note : Method overloading is not possible by changing the return type of method only

@@ -1,0 +1,6 @@
+Types of polymorphism:
+
+1. Compile-time polymorphism
+2. Run time polymorphism (Dynamic Method dispatch)
+
+Note: Runtime polymorphism can't achieved by data members
