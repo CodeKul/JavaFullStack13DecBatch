@@ -1,4 +1,4 @@
-package methodoverloading;
+package polymorphism.methodoverloading;
 
 public class Addition {
     int add(int a,int b){
@@ -22,11 +22,15 @@ public class Addition {
         return a+c;
     }
 
+    void add(int... a){ //varargs - accepts zero or multiple args
+        System.out.println("in var args");
+    }
     public static void main(String[] args) {
         Addition addition = new Addition();
         System.out.println(addition.add(10,10));
         System.out.println(addition.add(10f,10));
         System.out.println(addition.add(10,10f));
         System.out.println(addition.add(10,10,10));
+        addition.add();
     }
 }

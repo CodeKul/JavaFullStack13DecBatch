@@ -1,6 +1,25 @@
 Types of polymorphism:
 
-1. Compile-time polymorphism
-2. Run time polymorphism (Dynamic Method dispatch)
+1. Compile-time polymorphism or static polymorphism - method overloading(achieve)
+2. Run time polymorphism (Dynamic Method dispatch) or Dynamic polymorphism - method overriding(achieve)
+
+poly -> many
+morph -> forms
+eg. 1. water - solid -ice, liquid -water, gas -vapour
+    2. sound - dog -bark, lion -roar, cat -meow
 
 Note: Runtime polymorphism can't achieved by data members
+
+
+ Method Overloading      Method Overriding
+ 1. same name            1. same name
+ 2. same class           2. diff class
+ 3. no. of args          3. same no. of args,must have same parameters,return type must be same
+ 4. diff data types      4. when two classes have is-a relationship(inheritance)
+
+ class A{
+ void show(String n){}
+ }
+ class B extends A{
+ void show(String n){}
+ }
