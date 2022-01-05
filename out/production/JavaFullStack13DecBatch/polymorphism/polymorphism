@@ -7,6 +7,7 @@ poly -> many
 morph -> forms
 eg. 1. water - solid -ice, liquid -water, gas -vapour
     2. sound - dog -bark, lion -roar, cat -meow
+
 Note: Runtime polymorphism can't achieved by data members
 
 

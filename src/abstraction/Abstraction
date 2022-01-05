@@ -1,0 +1,29 @@
+Abstraction:
+- hiding internal/implementation details & showing only functionality to the user
+- shows only essential things to the user and hides the internal impl
+
+ways to achieve abstraction
+1. abstract class(0-100%)
+2. interface(100%)
+
+Abstract class:
+1. class which declared with abstract keyword.
+Syntax-
+ abstract class_name{
+    // abstract methods - methods which are declared with abstract keyword
+    // non-abstract methods
+ }
+
+Notes:
+1. class must be declared with abstract keyword if class contains abstract methods
+
+2. class have abstract & non-abstract methods
+
+3. class cannot be instantiated(cannot create object of abstract class)
+
+4. class can have constructors & static methods
+
+5. class can have final methods
+
+6. if class extends abstract class then that class must provide implementation of the method or
+   make this class as abstract
