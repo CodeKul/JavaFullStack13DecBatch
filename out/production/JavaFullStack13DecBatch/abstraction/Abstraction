@@ -3,8 +3,8 @@ Abstraction:
 - shows only essential things to the user and hides the internal impl
 
 ways to achieve abstraction
-1. abstract class
-2. interface
+1. abstract class(0-100%)
+2. interface(100%)
 
 Abstract class:
 1. class which declared with abstract keyword.
@@ -24,3 +24,6 @@ Notes:
 4. class can have constructors & static methods
 
 5. class can have final methods
+
+6. if class extends abstract class then that class must provide implementation of the method or
+   make this class as abstract

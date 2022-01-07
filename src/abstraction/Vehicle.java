@@ -30,6 +30,7 @@ class Bike extends Vehicle{
 }
 class VehicleImpl{
     public static void main(String[] args) {
+        Vehicle.show();
         Vehicle vehicle;//reference object
         vehicle = new Car();
         vehicle.start();
