@@ -11,3 +11,12 @@ Advantage:
 1. make the data members read only or write only
 2. control over the data
 3. achieve data hiding
+
+Homework :
+1. Employee
+        int id
+        String name
+        double salary //write only
+        double bonus  //read only
+        String email
+   Create double calculateBonus() - salary + bonus
