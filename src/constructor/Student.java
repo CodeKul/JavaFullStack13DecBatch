@@ -1,5 +1,5 @@
 package constructor;
-
+//default constructor
 public class Student {
     int rollNo;
     String name;
@@ -7,6 +7,7 @@ public class Student {
     Student(){
         System.out.println("in Default constructor");
     }
+
     void show(){
         System.out.println("Roll No:"+rollNo);
         System.out.println("Name: "+name);
@@ -14,7 +15,7 @@ public class Student {
     }
 
     public static void main(String[] args) {
-        Student s = new Student();
+        Student s = new Student();//default
         s.show();
     }
 }
