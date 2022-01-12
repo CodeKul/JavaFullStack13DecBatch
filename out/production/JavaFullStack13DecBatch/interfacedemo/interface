@@ -1,0 +1,20 @@
+- blueprint of class
+- used to achieve abstraction & multiple inheritance
+
+Syntax:
+interface interface_name{
+    methods; // abstract,public
+    fields; // static,final,public
+}
+
+- only have abstract & public methods(by default)
+- fields are static,final & public(by default)
+- represents IS-A relationship
+- cannot instantiate
+- achieve loose coupling
+
+relationships
+class----->class  - extends
+class----->interface - implements
+interface----->interface - extends
+
