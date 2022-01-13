@@ -18,3 +18,38 @@ class----->class  - extends
 class----->interface - implements
 interface----->interface - extends
 
+Difference
+   Abstract class                          Interface
+1. abstract/non-abstract                  1.only abstract methods
+2. achieve partial abstraction            2. 100% abstraction
+3. abstract class should extended         3. interface should be implemented using
+ using extends keyword                       implement keyword
+4.fields - non-final                      4. final
+
+*********Marker Interface***************
+- empty interface(no fields or methods)
+- interface that does not contain any methods,fields
+- tag interface
+- it delivers additional info to the JVM about an object @run time
+- inform the compiler by a message to add some special behaviour to object of class implementing it.
+
+Syntax:
+interface marker_interface{
+}
+Ex. Serializable,Cloneable,Remote Interface
+
+instanceof - to test whether object is an instance of specified type
+
+HomeWork:
+create two marker interface - Vehicle & Engine
+Create  classes
+use instanceof operator
+class Car{
+   boolean isVehicle();
+}
+class Bike{
+   boolean isVehicle();
+}
+class Status{
+    isWorking();
+}

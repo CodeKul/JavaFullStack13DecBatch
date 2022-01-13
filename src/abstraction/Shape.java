@@ -1,5 +1,6 @@
 package abstraction;
 
+import java.io.Serializable;
 import java.util.Scanner;
 
 public abstract class Shape {
@@ -9,6 +10,7 @@ public abstract class Shape {
 class Rectangle extends Shape{
     int base;
     int height;
+
     public Rectangle(int base, int height) {
         this.base = base;
         this.height = height;
