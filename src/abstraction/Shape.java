@@ -22,14 +22,52 @@ class Rectangle extends Shape{
     }
 }
 
+class Square extends Shape{
+    int side;
+    public Square(int side){
+        this.side = side;
+    }
+
+    @Override
+    double calculateArea() {
+        return side*side;
+    }
+}
+
 class ShapeImpl{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter base & height:");
-        int base = sc.nextInt();
-        int height = sc.nextInt();
-        Shape shape = new Rectangle(base,height);
-        System.out.println("Area of Rectangle "+shape.calculateArea());
+        int ch;
+        do{
+            System.out.println("1.Rectangle");
+            System.out.println("2.Square");
+            System.out.println("3.Exit");
+            System.out.println("Enter your choice");
+            ch = sc.nextInt();
+            Shape shape;
+            switch (ch){
+                case 1:
+                    System.out.println("Enter base & height:");
+                    int base = sc.nextInt();
+                    int height = sc.nextInt();
+                    shape = new Rectangle(base,height);
+                    System.out.println("Area of Rectangle "+shape.calculateArea());
+                    break;
+                case 2:
+                    System.out.println("Enter side");
+                    int side = sc.nextInt();
+                    shape = new Square(side);
+                    System.out.println("Area of Square "+shape.calculateArea());
+                    break;
+                case 3:
+                    System.exit(0);
+                    break;
+                default:
+                    System.out.println("Wrong Choice!!");
+                    break;
+            }
+        }while (ch>4);
+
     }
 }
 
