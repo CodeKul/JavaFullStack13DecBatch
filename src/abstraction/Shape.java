@@ -1,6 +1,5 @@
 package abstraction;
 
-import java.io.Serializable;
 import java.util.Scanner;
 
 public abstract class Shape {
@@ -8,17 +7,17 @@ public abstract class Shape {
 }
 
 class Rectangle extends Shape{
-    int base;
-    int height;
+    int length;
+    int breadth;
 
-    public Rectangle(int base, int height) {
-        this.base = base;
-        this.height = height;
+    public Rectangle(int length, int breadth) {
+        this.length = length;
+        this.breadth = breadth;
     }
 
     @Override
     double calculateArea() {
-        return (0.5*base*height);
+        return (0.5* length * breadth);
     }
 }
 
@@ -66,7 +65,7 @@ class ShapeImpl{
                     System.out.println("Wrong Choice!!");
                     break;
             }
-        }while (ch>4);
+        }while (ch<4);
 
     }
 }

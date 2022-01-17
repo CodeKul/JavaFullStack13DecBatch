@@ -1,0 +1,22 @@
+- represents HAS-A relationship
+- relation between two separate classes
+- a class have an entity ref
+- loosely coupled
+
+association - relation between two separate classes which establishes thro their objects
+Two forms of association
+1. Composition - strong bonding
+2. Aggregation - weak bonding
+
+class Vehicle{
+
+}
+class Car extends Vehicle{
+    Engine engine = new Engine();
+    MPlayer mPlayer = new MPlayer();
+}
+class Engine{ //Composition
+
+}
+class MPlayer{ //Aggregation
+}
