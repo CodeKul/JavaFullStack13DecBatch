@@ -1,0 +1,6 @@
+- used for memory management
+- we can apply static keyword with :
+1. variable
+2. method
+3. block
+4. class

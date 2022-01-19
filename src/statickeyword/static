@@ -1,0 +1,9 @@
+- used for memory management
+- we can apply static keyword with :
+1. variable
+        - stored in Method/class Area
+        - get the memory only once,when class loaded in memory
+        - it saves the memory
+2. method
+3. block
+4. class

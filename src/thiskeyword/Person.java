@@ -2,11 +2,14 @@ package thiskeyword;
 
 /**
  * this :
- *  - reference variable that refers to current object
+ *  - reference variable that refers to current class object
  *  Usage -:
  *  1. used to refer current class instance variable
  *  2. used to invoke current class method
  *  3. used to invoke current class constructor
+ *  4. used to pass as an argument in the method
+ *  5. used to pass as an argument in constructor call
+ *  6. used to return current class instance
  *
  *  Note :
  *  this() must be first statement in constructor
