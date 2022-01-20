@@ -1,6 +1,16 @@
 - used for memory management
 - we can apply static keyword with :
 1. variable
+        - stored in Method/class Area
+        - get the memory only once,when class loaded in memory
+        - it saves the memory
+        - share among all the instance of class
 2. method
+		- belongs to class
+		- without creating an object or instance of class we can call or invoked static method
+		- static method can access only static data
 3. block
+		- when class is loaded & before creating an object & before main method static block executes only once
+		- used to initialize static data(fields)
+		- static block can access only static data
 4. class
