@@ -14,3 +14,12 @@
 		- used to initialize static data(fields)
 		- static block can access only static data
 4. class
+
+Homework:
+1. Can we execute a program without main()?
+
+2. class Car{
+	String carName;
+	String color;
+	int wheels;
+}

@@ -9,5 +9,4 @@ public class StaticBlock {
     }
 }
 /**
- * Can we execute a program without main()?
  */
