@@ -17,9 +17,11 @@
 
 Homework:
 1. Can we execute a program without main()?
+- No.
 
 2. class Car{
 	String carName;
 	String color;
 	int wheels;
 }
+3. multiple static block

@@ -1,0 +1,24 @@
+- a reference variable which refers to immediate parent class object
+
+Usage :
+1. used to refer immediate parent class instance variable
+2. used to invoke parent class method
+3. used to invoke parent class constructor
+	Java compiler invoke super class constructor implicitly
+	if we are not call constructor explicitly
+
+class A{
+	int a;
+}
+class B extends A{
+	int a;
+
+	main(){
+		B b = new B();
+		(this.a) - current class object
+		(super.a) - parent class object
+	}
+}
+
+Homework:
+1. Difference between super & super()
