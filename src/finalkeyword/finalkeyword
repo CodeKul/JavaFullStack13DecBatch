@@ -1,0 +1,22 @@
+- used for restriction
+- final keyword can be used in
+
+1. Variable
+	eg. final int a = 10
+	- can not change/update value
+	- final variable that have no value(blank final variable or uninitialized final variable)
+	- blank final variable can be initialized in constructor only
+	- blank final static variable can be initialized in static block only
+
+2. Method -
+	eg. final void show(){
+	}
+	- we cannot override final method
+
+3. class
+	eg. final class Test{
+	}
+	- we cannot extend final class
+
+Can we declare a constructor as final?
+No,
