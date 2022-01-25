@@ -1,0 +1,8 @@
+- used for restriction
+- final keyword can be used in
+
+1. Variable
+	eg. final int a = 10
+	- can not change/update value
+2. Method
+3. class
