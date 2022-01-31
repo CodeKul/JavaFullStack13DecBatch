@@ -1,0 +1,49 @@
+- an object which contains elements of a similar data type
+- stored in contiguous memory location
+- can store only a fixed set of elements in array
+- index-based, first element of the array is stored at 0th index
+- variables in the array are ordered
+
+
+Advantages:
+1. code optimization
+2. Random access
+
+Disadvantage:
+1. size limit
+
+Types of Array
+1. Single Dimensional Array
+	Syntax:
+		datatype[] var_name; OR
+		datatype []var_name; OR
+		datatype var_name[];
+
+2. Multidimensional Array
+	Syntax:
+		datatype[][] var_name; OR
+		datatype [][]var_name; OR
+		datatype var_name[][]; OR
+		datatype []var_name[];
+
+Jagged Array
+	- creating odd number of columns
+	- an array of arrays with diff no of columns
+
+
+
+
+
+Homework:
+1. Create class Employee
+	id
+	name
+	mobileNo
+	emailId
+
+	print only even index employee
+
+2.int a[] = {1,1,5,3,9,8,6,7,5,4}
+Find duplicate elements of an array & print
+
+

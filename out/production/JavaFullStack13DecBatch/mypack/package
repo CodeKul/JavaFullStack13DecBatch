@@ -1,0 +1,14 @@
+- group of similar types of classes,interface & sub-package
+types of packages
+1. built-in packages
+	eg. java.util,java.sql,java.net,java.lang,java.swing,java.awt
+
+2. used defined packages
+
+Advantages:
+1. to categorised the classes,interface
+2. provides access protection
+3. removes naming collision
+
+Note: if you import a package using *(all classes & interfaces),
+ subpackages will not be imported, only classes & interfaces imported

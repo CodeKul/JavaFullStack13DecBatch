@@ -1,0 +1,26 @@
+- specifies the accessibility(scope) of methods, fields,classes or constructor
+
+Types of modifiers
+1. Access modifiers
+	Types of Access modifiers:
+	a) private
+		- only accessible within class,we cannot access from outside the class
+		- a class can not be private
+
+	b) default
+		- only accessible within the package, we cannot accessed from outside the class
+		- if do not specifies access modifiers,it will be default
+
+	c) protected
+		- within the package & outside the package through the inheritance only
+
+	d) public
+		- access everywhere
+
+2. Non-Access modifiers
+	a) static
+	b) abstract
+	c) synchronised
+	d) native
+	e) volatile
+	f) transient
