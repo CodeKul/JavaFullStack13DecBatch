@@ -38,5 +38,10 @@ class StudentImpl{
         for (Student student : s){
             System.out.println(student.getName() +" "+student.getRollNo());
         }
+
+        for ( int i=1;i<s.length+1;i++){
+            if (i%2==0)
+            System.out.println("Index "+i +" Roll No "+s[i].getRollNo() +" Name "+s[i].getName());
+        }
     }
 }

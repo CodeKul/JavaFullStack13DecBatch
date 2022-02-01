@@ -41,9 +41,13 @@ Homework:
 	mobileNo
 	emailId
 
-	print only even index employee
+	print only even index employee.Add emp data by using scanner class
 
 2.int a[] = {1,1,5,3,9,8,6,7,5,4}
 Find duplicate elements of an array & print
+
+3. Addition of 2*2 Matrix
+4. Addition of 3*3 Matrix
+
 
 
