@@ -10,3 +10,14 @@ Types of Inner class:
 2. Method Local Inner class
 3. Static Nested class
 4. Anonymous Inner class
+
+class outer{
+	void outerMethod(){
+	int n = 75;
+		class Inner{
+			innerMethod(){
+				print n
+			}
+		}
+	}
+}
