@@ -1,0 +1,12 @@
+- class that is declared inside class
+
+Advantage :
+1. make our code clean & readable
+2. optimizing the code module
+3. private methods of outer class can be accessed
+
+Types of Inner class:
+1. Nested Inner class
+2. Method Local Inner class
+3. Static Nested class
+4. Anonymous Inner class
