@@ -13,7 +13,9 @@
 		- when class is loaded & before creating an object & before main method static block executes only once
 		- used to initialize static data(fields)
 		- static block can access only static data
+
 4. class
+
 
 Homework:
 1. Can we execute a program without main()?

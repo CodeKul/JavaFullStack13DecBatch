@@ -10,10 +10,13 @@ Types of Inner class:
 2. Method Local Inner class
 3. Static Nested class
 4. Anonymous Inner class
+	- declared without name
+
+Homework:
 
 class outer{
 	void outerMethod(){
-	int n = 75;
+	int n = 75;//local non-final variable
 		class Inner{
 			innerMethod(){
 				print n
@@ -21,3 +24,9 @@ class outer{
 		}
 	}
 }
+
+2. private,protected,abstract,final
+
+Notes:
+1. local inner class cannot access non-final local variable till JDK 1.7.
+	since JDK 1.8, it is possible to access non-final local variable

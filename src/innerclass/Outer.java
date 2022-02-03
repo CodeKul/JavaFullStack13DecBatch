@@ -11,6 +11,8 @@ public class Outer { //Outer.class
         static void m1(){
             System.out.println("in m1 ");
         }
+    }
+    class Inner2{
 
     }
 }
