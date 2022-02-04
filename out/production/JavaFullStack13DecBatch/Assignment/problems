@@ -1,0 +1,30 @@
+Write a program to print 'Hello' on screen and then print your name on a separate line.
+Write a program to two numbers and perform sum of two numbers.
+Write a program to calculate Simple Interest.
+Write a program to swap two variables
+Write a program to convert days into years, weeks and days.{Hint: Input-373 days Output-1Year,1Weak,1day}
+Write a program to divide two numbers and print on the screen.
+Write a program to print the sum (addition), multiply, subtract, divide and remainder of two numbers
+Write a program to print the area and perimeter of a circle.
+Write a program to print the area and perimeter of a rectangle
+Write a program to find the area of an equilateral triangle.
+Write a program to convert Celsius into Fahrenheit and vice versa.
+Write a program to display total Marks and average of 6 subjects.
+How to accept different types of data using Scanner class.
+Write a program to input a number from the user and display the corresponding day of the week.
+"Write a program to input basic salary of an employee and calculate its Gross
+salary according to following:
+Basic Salary <= 10000: HRA = 20%, DA =80%
+Basic Salary <= 20000 : HRA = 25%, DA =90%
+Basic Salary > 20000 : HRA = 30%, DA =95%"
+"Consider a situation below of the electricity unit charges. Now input electric units by the user and
+calculate total electricity bill according to the given condition.
+For first 50 units Rs. 0.50/unit
+For next 100 units Rs.0.75/unit
+For next 100 units Rs. 1.20/unit
+For unit above 250 Rs.1.50/unit
+An additional surcharge of 20% is added to the bill"
+Write a program to display maximum among three numbers.
+Write a program to display whether a number is even or odd.
+Write a program to display whether a number is negative, positive or zero.
+Write a program to display maximum number and minimum number between two numbers.
