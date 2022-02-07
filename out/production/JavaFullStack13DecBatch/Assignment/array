@@ -33,3 +33,9 @@
 33) Java Program to find the product of two matrices
 34) Java Program to find the sum of each row and each column of a matrix
 35) Java Program to find the transpose of a given matrix
+36) array={1,2,3,4,5}
+	remove 3
+	array1={1,2,4,5}
+37)find missing no.
+	start element & end element 31-40  42,43,45
+	missing nos 41 44
