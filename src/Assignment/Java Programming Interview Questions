@@ -1,0 +1,78 @@
+How to reverse a String in Java?
+How to swap two numbers without using a third variable?
+Java Program to check if a vowel is present in the string?
+Java program to check if the given number is Prime?
+Fibonacci Series using recursion
+Check if a List of integers contains only odd numbers?
+Palindrome Check
+How to remove Whitespaces from String
+How to remove leading and trailing whitespaces from a string?
+Sorting an array in Java?
+How to Create a Deadlock Scenario Programmatically?
+Find factorial of an integer?
+How to implement Binary Search?
+Merge Sort in Java?
+Check if two arrays contains same elements?
+ How to find if a string is present in a text file?
+  How to print date in specific format?
+How to merge two lists in java?
+How to Sort HashMap by values?
+remove all occurrences of a given character from input String?
+How to get distinct characters and their count in a String?
+How to prove String is immutable programmatically?
+Write a Program to showcase inheritance?
+Write a Program to Show Diamond Problem with Multiple Inheritance?
+Write a Program to show try catch example?
+Write a code to show NullPointerException
+Write a Program to show try catch example?
+Guess the Output of Code Snippets
+1.String s1 = "abc";
+  String s2 = "abc";
+  System.out.println("s1 == s2 is:" + s1 == s2);
+
+2.String s3 = "JournalDev";
+  int start = 1;
+  char end = 5;
+  System.out.println(start + end);
+  System.out.println(s3.substring(start, end));
+
+3.try {
+  	if (flag) {
+  		while (true) {
+  		}
+  	} else {
+  		System.exit(1);
+  	}
+  } finally {
+  	System.out.println("In Finally");
+  }
+
+4.String str = null;
+  String str1="abc";
+  System.out.println(str1.equals("abc") | str.equals(null));
+
+5.String x = "abc";
+  String y = "abc";
+  x.concat(y);
+  System.out.print(x);
+
+6.public class MathTest {
+  	public void main(String[] args) {
+  		int x = 10*10-10;
+  		System.out.println(x);
+  	}
+  }
+
+7.public class Test {
+  	public static void main(String[] args) {
+  		try {
+  			throw new IOException("Hello");
+  		}catch(IOException | Exception e) {
+  			System.out.println(e.getMessage());
+  		}
+  	}
+  }
+
+
+
+

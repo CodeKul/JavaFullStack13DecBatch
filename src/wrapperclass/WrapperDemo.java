@@ -3,6 +3,8 @@ package wrapperclass;
 import java.util.List;
 
 /**
+ * The wrapper class in Java provides the mechanism to convert primitive into object and object into primitive.
+ *
  * From JDK - 1.0
  * int- Integer
  * float-Float

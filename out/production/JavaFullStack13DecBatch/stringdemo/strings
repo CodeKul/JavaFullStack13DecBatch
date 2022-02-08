@@ -1,0 +1,20 @@
+- sequence of characters
+
+There are 3 classes to create Strings
+1. String
+2. String Builder
+3. String Buffer
+
+String:
+- non-primitive data type
+- final class
+- implements java.io.Serializable, Comparable<String>, CharSequence,
+                 Constable, ConstantDesc
+
+3 ways to create String
+1. by using char array]
+	char[]  = {'a'.'d','y'}
+2. String literal
+	String str = "codekul"
+3. by new keyword
+	String str = new String("abc");
