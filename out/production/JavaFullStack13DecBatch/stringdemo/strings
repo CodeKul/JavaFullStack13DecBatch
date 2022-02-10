@@ -12,9 +12,24 @@ String:
                  Constable, ConstantDesc
 
 3 ways to create String
-1. by using char array]
-	char[]  = {'a'.'d','y'}
+1. by using char array
+	char[]  = {'a','d','y'}
 2. String literal
 	String str = "codekul"
 3. by new keyword
 	String str = new String("abc");
+
+Memory Areas in Java
+1. Method Area
+2. Heap
+3. Stack
+4. PC Register
+5. Native Method Stack
+
+String Constant Pool(String literal pool)
+- separate place in heap area
+- values of strings are gets stored
+- JVM checks SCP first,if string is already exists in SCP then it refers to same string
+	else it will created new string instance
+
+
