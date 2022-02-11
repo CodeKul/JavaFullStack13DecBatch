@@ -34,13 +34,35 @@ String Constant Pool(String literal pool)
 - Strings present in SCP are not applicable for Garbage Collector, because reference
 	variables are internally managed by JVM
 
+- why String class is immutable in Java?
+	- unmodifiable
+	- unchangeable
+	- once we create an object of string with value, then we can not allowed to perform any changes in that object
+	- we can not modify the value but if we try to change with new value, a new string object will be created with new value
+	- we cannot perform any changes with existing string object
+
 Homework:
-1.
-    * 1. charAt()
-    * 2. split()
-    * 3. lastIndexOf()
-    * 4. startWith();
-    * 5. indexOf()
+1. charAt()
+2. toUpperCase()
+3. toLowerCase()
+4. isEmpty()
+5. concat()
+6. length()
+7. replace()
+8. replaceAll()
+9. indexOf()
+10. startsWith()
+11. endsWith()
+12. trim()
 
-
+13. class Employee{
+	insertData(int id,String name){
+		for(Emp e : arrayEmp){
+			if(compareTo)
+			//if already exists print msg
+			else
+				//add
+		}
+	}
+}
 
