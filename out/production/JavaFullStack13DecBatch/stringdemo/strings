@@ -41,6 +41,22 @@ String Constant Pool(String literal pool)
 	- we can not modify the value but if we try to change with new value, a new string object will be created with new value
 	- we cannot perform any changes with existing string object
 
+
+String Buffer
+	- mutable(modify)
+	- thread safe
+	- synchronized
+	- slow
+
+String Builder
+	- mutable(modify)
+	- not thread safe
+	- non synchronized
+	- fast
+
+toString()
+	- representation of object
+
 Homework:
 1. charAt()
 2. toUpperCase()
@@ -55,5 +71,15 @@ Homework:
 11. endsWith()
 12. trim()
 
+13. class Employee{
+	insertData(int id,String name){
+		for(Emp e : arrayEmp){
+			if(compareTo)
+			//if already exists print msg
+			else
+				//add
+		}
+	}
+}
 
-
+14. Difference between String,String Buffer & String Builder
