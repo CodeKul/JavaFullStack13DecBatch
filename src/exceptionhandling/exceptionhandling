@@ -1,0 +1,46 @@
+
+- to handle the runtime errors so that the normal flow of application
+  can be maintained
+
+Exception
+- abnormal condition
+
+2 Types of Exception
+1. Checked Exception(compile time exception)
+	- these exceptions are checked @ the compile time
+
+2. Unchecked Exception(run time exception)
+	- these exceptions are checked @ the run time
+
+3. Error
+	- irrecoverable
+
+Hierarchy :
+
+Throwable
+	- Exception
+		- IOException
+		- SqlException
+		- ClassNotFoundException
+		- FileNotFoundException
+		- RuntimeException
+			- ArithmeticException
+			- NullPointerException
+			- IndexOutOfBoundException
+			- NumberFormatException
+	- Error
+		- StackOverFlowError
+		- OutOfMemoryError
+		- VirtualMachineError
+
+Keywords used to handle exception:
+1. try
+	- place an exception code
+2. catch
+	- to handle the exception
+3. finally
+	- to execute necessary code
+4. throw
+	- throw the exception
+5. throws
+	- declare the exception

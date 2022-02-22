@@ -20,7 +20,7 @@ interface----->interface - extends
 
 Difference
    Abstract class                          Interface
-1. abstract/non-abstract                  1.only abstract methods
+1. abstract/non-abstract                  1. only abstract methods
 2. achieve partial abstraction            2. 100% abstraction
 3. abstract class should extended         3. interface should be implemented using
  using extends keyword                       implement keyword
