@@ -36,6 +36,7 @@ Throwable
 Keywords used to handle exception:
 1. try
 	- place an exception code
+	- might or might be throw an exception
 2. catch
 	- to handle the exception
 3. finally
@@ -44,3 +45,17 @@ Keywords used to handle exception:
 	- throw the exception
 5. throws
 	- declare the exception
+
+Nested Try :
+ - try inside another try
+ - Sometimes a situation may arise where part of a block may cause one error and the entire block
+ itself may cause another error. In such cases exception handlers have to be nested.
+
+Notes :
+1. At a time only one exception occurs and ar a time only one catch block is executed
+2. All catch block must be ordered from most specific to most general
+
+Homework
+1. Handle ArrayIndexOutOfBoundException
+	int a[5] = {1,2,3,4,5};
+	sout(a[6]);

@@ -18,7 +18,7 @@ public class ExceptionDemo {
         String s = null;
         System.out.println(s.length()); //// Unchecked Exception
 
-       // FileInputStream fis = new FileInputStream("abc.txt"); //checked exception
+        //FileInputStream fis = new FileInputStream("abc.txt"); //checked exception
 
 
     }
