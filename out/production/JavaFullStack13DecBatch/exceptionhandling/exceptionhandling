@@ -41,13 +41,16 @@ Keywords used to handle exception:
 	- to handle the exception
 3. finally
 	- to execute necessary code
+	- eg. close connection
 4. throw
-	- throw the exception
+	- throw the exception explicitly
 5. throws
 	- declare the exception
 
 Nested Try :
- try inside another try
+ - try inside another try
+ - Sometimes a situation may arise where part of a block may cause one error and the entire block
+ itself may cause another error. In such cases exception handlers have to be nested.
 
 Notes :
 1. At a time only one exception occurs and ar a time only one catch block is executed
@@ -57,3 +60,8 @@ Homework
 1. Handle ArrayIndexOutOfBoundException
 	int a[5] = {1,2,3,4,5};
 	sout(a[6]);
+
+2. Age criteria for vaccine
+	Group 1
+	Group 2 - 45 - 60 - eligible for vaccine
+	Group 3

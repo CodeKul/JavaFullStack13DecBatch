@@ -41,8 +41,9 @@ Keywords used to handle exception:
 	- to handle the exception
 3. finally
 	- to execute necessary code
+	- eg. close connection
 4. throw
-	- throw the exception
+	- throw the exception explicitly
 5. throws
 	- declare the exception
 
@@ -59,3 +60,18 @@ Homework
 1. Handle ArrayIndexOutOfBoundException
 	int a[5] = {1,2,3,4,5};
 	sout(a[6]);
+
+2. Age criteria for vaccine
+	Group 1
+	Group 2 - 45 - 60 - eligible for vaccine
+	Group 3
+3. Bank
+	//Menu driven
+	withdraw() - decrement
+		- initialAmount < withdraw
+			throw Custom Exception
+		else
+			complete the transaction
+
+	deposit() - increment
+	display() - balance
