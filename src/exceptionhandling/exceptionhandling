@@ -46,11 +46,22 @@ Keywords used to handle exception:
 	- throw the exception explicitly
 5. throws
 	- declare the exception
+	- suppress the exception
+	syntax:
+	void display() throws exception_class name{
+		//method code
+	}
+	- checked exceptions are declared only
 
 Nested Try :
  - try inside another try
  - Sometimes a situation may arise where part of a block may cause one error and the entire block
  itself may cause another error. In such cases exception handlers have to be nested.
+
+ Exception Propagation:
+ - when an exception occurs within a method then if that method does not handle that exception object
+ will be propagated to caller then the call method is responsible that exception.
+ - an exception is thrown from the top of the stack & if it not cought , then it drops down the call stack
 
 Notes :
 1. At a time only one exception occurs and ar a time only one catch block is executed
@@ -72,6 +83,11 @@ Homework
 			throw Custom Exception
 		else
 			complete the transaction
+			if amount is 0
+			then "you need to deposit money first"
 
 	deposit() - increment
 	display() - balance
+
+4. Difference between throw & throws
+5. Difference between final vs finally vs finalize
