@@ -17,3 +17,11 @@ class TestThrow{
         System.out.println("Remaining code");
     }
 }
+
+//multithreading
+//jdbc
+//collection
+//file handling
+//java 8
+//database
+//spring

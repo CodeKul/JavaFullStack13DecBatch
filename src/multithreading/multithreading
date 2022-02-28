@@ -1,0 +1,38 @@
+**Thread
+- lightweight process
+- smallest unit
+- independent
+- if there occurs exception in one thread, it doesn't affect other threads
+- shared the memory area
+
+
+Multitasking
+- a process executing multiple tasks simultaneously.
+2 ways to achieve multitasking
+1. Multiprocessing
+	- heavyweight
+	- has a address in memory
+	- cost of communication between the process is high
+	- switching from one process to another process requires some time
+
+2. MultiThreading
+	- a process of executing multiple threads
+	- lightweight
+	- sharing the address space
+	- cost of communication between thread is low
+
+Life cycle of Thread
+1. New(Born)
+2. Runnable
+3. Running
+4. waiting/blocked
+5. Terminated/Dead
+
+There are 2 ways to create thread in java
+1. by extending thread class
+2. by implementing Runnable interface
+
+Notes:
+1. we required at least one process to execute the thread
+2. at a time one thread is executed only
+
