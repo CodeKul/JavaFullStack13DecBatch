@@ -67,6 +67,19 @@ Notes :
 1. At a time only one exception occurs and ar a time only one catch block is executed
 2. All catch block must be ordered from most specific to most general
 
+Difference between Throw & Throws
+	Throw                                   Throws
+1. explicitly throw an exception        1. declaring an exception
+	by creating object
+
+2. propagate unchecked exception        2. declare both checked & unchecked exception
+
+3. within the method                    3. with method signature
+
+Difference between final vs finally vs finalize
+
+
+
 Homework
 1. Handle ArrayIndexOutOfBoundException
 	int a[5] = {1,2,3,4,5};
@@ -89,4 +102,5 @@ Homework
 	deposit() - increment
 	display() - balance
 
-4.
+4. Difference between throw & throws
+5. Difference between final vs finally vs finalize

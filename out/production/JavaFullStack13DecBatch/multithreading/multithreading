@@ -55,11 +55,6 @@ There are 2 ways to create thread in java
 		c) create an object of extended class
 		d) call start()
 2. by implementing Runnable interface
-		a) implementing class with Runnable interface
-		b) override run()
-		c) create an object of implemented class
-		d) create an object of thread class to pass implemented class object as an argument
-		e) call start()
 
 Notes:
 1. we required at least one process to execute the thread
