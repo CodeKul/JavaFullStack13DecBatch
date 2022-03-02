@@ -20,6 +20,8 @@ Multitasking
 	- lightweight
 	- sharing the address space
 	- cost of communication between thread is low
+    - by default in every java application we have at least one thread - main thread
+
 
 Life cycle of Thread
 1. New(Born)
@@ -45,7 +47,9 @@ Life cycle of Thread
 
 Thread Scheduler
  - part of JVM
- -
+ - decides which thread to run or execute  & which thread to wait
+ - thread is selected only from runnable state
+ - if there is more than one thread in runnable state, then it's up to TS to pick one thread
 
 There are 2 ways to create thread in java
 1. by extending thread class
@@ -53,15 +57,32 @@ There are 2 ways to create thread in java
 		a) extends class with Thread class
 		b) override run()
 		c) create an object of extended class
-		d) call start()
+		d) invoked start()
 2. by implementing Runnable interface
 		a) implementing class with Runnable interface
 		b) override run()
 		c) create an object of implemented class
 		d) create an object of thread class to pass implemented class object as an argument
-		e) call start()
+		e) invoked start()
+
+Methods:
+1. void run()
+	- used to perform action on a thread
+
+2. void start()
+	- starts the execution of the thread.JVM calls the run() method
+
+3. Thread currentThread()
+	-  Returns a reference to the currently executing thread object
+
+4. sleep(long ms)
+	- sleep current executing thread for specified no of ms
+	- throws the exception IllegalArgumentException when the time for sleeping is negative
 
 Notes:
 1. we required at least one process to execute the thread
 2. at a time one thread is executed only
+
+Homework
+1. Difference between Thread & Process
 

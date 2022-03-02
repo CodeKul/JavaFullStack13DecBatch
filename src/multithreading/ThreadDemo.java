@@ -9,6 +9,8 @@ public class ThreadDemo extends Thread{
 
 class ThreadDemoImpl{
     public static void main(String[] args) {
+        System.out.println("Current Thread "+Thread.currentThread().getName());
+
         ThreadDemo th1 = new ThreadDemo(); //New(Born)
         th1.start(); // runnable
     }
