@@ -75,9 +75,26 @@ Methods:
 3. Thread currentThread()
 	-  Returns a reference to the currently executing thread object
 
-4. sleep(long ms)
+4. void sleep(long ms)
 	- sleep current executing thread for specified no of ms
 	- throws the exception IllegalArgumentException when the time for sleeping is negative
+
+5. void join()
+	- to pause the execution of a current thread until unless the specified thread is dead.
+	why we use join() method?
+		- Our program can have any number of threads.TS decides which thread will get executed.
+		- But  TS doesn't give guarantee to the the order of execution of threads.So, every time
+		we run the code may get different result.
+		- Suppose we go with sleep() method, it pauses the execution of thread for specific time period
+		but we can not predict the exact execution time of a thread
+
+Can we start a thread twice?
+- No, After starting a thread,it can never be started again
+- If we do this, we will get IllegalThreadStateException
+
+What if we call run() method directly?
+
+
 
 Notes:
 1. we required at least one process to execute the thread
