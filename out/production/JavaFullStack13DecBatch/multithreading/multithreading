@@ -88,6 +88,35 @@ Methods:
 		- Suppose we go with sleep() method, it pauses the execution of thread for specific time period
 		but we can not predict the exact execution time of a thread
 
+6.  String getName()
+	- returns thread name
+
+7. void setName(String nm)
+	- change name to the thread
+
+8. int getPriority()
+9. void setPriority(int newPriority)
+10. void setDaemon(boolean on)
+11. boolean isDaemon()
+
+3 Thread Priority constants:
+1. MIN_PRIORITY
+	- value of MIN_PRIORITY is 1
+2. NORM_PRIORITY
+	- Default priority of a thread is 5
+3. MAX_PRIORITY
+	- value of MAX_PRIORITY is 10
+
+Daemon Thread
+	- a service provider thread that provides service to the user thread.
+	- life of these threads are depend on user threads
+	- i.e when all the user threads terminated/dies, then JVM terminates these threads automatically
+	- eg. Garbage Collector
+	- low priority thread
+	- provides services to user threads for background supporting task
+	- to serve user threads
+
+
 Can we start a thread twice?
 - No, After starting a thread,it can never be started again
 - If we do this, we will get IllegalThreadStateException
