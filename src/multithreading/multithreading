@@ -99,6 +99,13 @@ Methods:
 10. void setDaemon(boolean on)
 11. boolean isDaemon()
 
+12. void yield()
+	- to give the hint to TS a & gives chance to other thread
+	- current running thread give chance to other thread
+	- it causes the currently executing thread object to pause & allow other threads to
+	execute
+
+
 3 Thread Priority constants:
 1. MIN_PRIORITY
 	- value of MIN_PRIORITY is 1
@@ -116,6 +123,22 @@ Daemon Thread
 	- provides services to user threads for background supporting task
 	- to serve user threads
 
+Synchronisation
+	- if we want to allow only one thread to access the shared resource.
+	- prevent thread interference
+	- prevent consistency problem
+
+  Types
+1. Process
+2. Thread Synchronisation
+	a) Mutual Exclusive
+		it will helps keep threads from interfering with one another
+			1. Synchronized method
+			2. Synchronized block
+			3. static synchronization
+	b) Cooperation(Inter-Thread communication)
+
+
 
 Can we start a thread twice?
 - No, After starting a thread,it can never be started again
@@ -130,7 +153,11 @@ Notes:
 2. at a time one thread is executed only
 3. if we want to make user thread as a Daemon thread then we must not be started
 	that thread. Otherwise it will throw IllegalThreadStateException
+4. Thread priorities cannot guarantee that a higher priority thread will always be executed first
+	than the lower priority thread.
+   The selection of the threads for execution depends upon the thread scheduler
 
 Homework
 1. Difference between Thread & Process
+2. difference between yield() & join() & sleep()
 

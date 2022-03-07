@@ -21,6 +21,10 @@ class PriorityImpl{
         th2.setPriority(2);
         th3.setPriority(9);
 
+        th3.start();
+        th1.start();
+        th2.start();
+
         System.out.println("After setting Priority to thread 1 "+th1.getPriority());
         System.out.println("After setting Priority to thread 2 "+th2.getPriority());
         System.out.println("After setting Priority to thread 3 "+th3.getPriority());
