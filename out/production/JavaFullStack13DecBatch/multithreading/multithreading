@@ -135,6 +135,7 @@ Synchronisation
 		it will helps keep threads from interfering with one another
 			1. Synchronized method
 			2. Synchronized block
+				- synchronizes portion of method
 			3. static synchronization
 	b) Cooperation(Inter-Thread communication)
 
@@ -159,5 +160,8 @@ Notes:
 
 Homework
 1. Difference between Thread & Process
-2. difference between yield() & join()
+2. difference between yield() & join() & sleep()
+3. movie ticket
+	//balance - 150 seats
+	- bookTicket
 
