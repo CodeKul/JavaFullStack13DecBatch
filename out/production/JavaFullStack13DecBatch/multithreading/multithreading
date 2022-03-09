@@ -137,6 +137,7 @@ Synchronisation
 			2. Synchronized block
 				- synchronizes portion of method
 			3. static synchronization
+				- lock will be on the class
 	b) Cooperation(Inter-Thread communication)
 
 
@@ -162,6 +163,6 @@ Homework
 1. Difference between Thread & Process
 2. difference between yield() & join() & sleep()
 3. movie ticket
-	//balance - 150 seats
+	//no of seats - 150 seats
 	- bookTicket
 
