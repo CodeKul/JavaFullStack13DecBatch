@@ -123,6 +123,12 @@ Daemon Thread
 	- provides services to user threads for background supporting task
 	- to serve user threads
 
+DeadLock
+ - occur in a situation when a thread is waiting for an object lock,
+  that is acquired by another thread & second thread is
+ waiting for an object lock that is acquired by first thread.
+ Since, both threads are waiting for each other to release the lock
+
 Synchronisation
 	- if we want to allow only one thread to access the shared resource.
 	- prevent thread interference
@@ -139,6 +145,8 @@ Synchronisation
 			3. static synchronization
 				- lock will be on the class
 	b) Cooperation(Inter-Thread communication)
+
+
 
 
 
@@ -165,4 +173,4 @@ Homework
 3. movie ticket
 	//no of seats - 150 seats
 	- bookTicket
-
+4. bank example by static synchronisation
