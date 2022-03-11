@@ -109,6 +109,17 @@ Methods:
 	- defined in Object class
 	- to give up the lock & go to sleep until some other threads calls notify() or notifyAll()
 	- final method
+	- can be called only from within a synchronised block or synchronised method otherwise an exception
+	will occur(IllegalMonitorStateException)
+
+14. void notify()
+	- to wakes up a single thread that called wait() method.
+	- final method
+
+
+15. void notifyAll()
+	- to wake up all threads  that called wait() method
+
 
 
 3 Thread Priority constants:
@@ -181,3 +192,5 @@ Homework
 	//no of seats - 150 seats
 	- bookTicket
 4. bank example by static synchronisation
+5. bus ticket reservation
+
