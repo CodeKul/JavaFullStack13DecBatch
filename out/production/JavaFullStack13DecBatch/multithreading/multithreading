@@ -165,8 +165,13 @@ Synchronisation
 		- wait(),notify(),notifyAll()
 
 
-
-
+Thread Pool
+	- collection of pre-initialized threads
+	- facilitates the execution of N number of tasks using the same thread
+	- when any thread completes its execution , it can pickup a new task from the queue and execute it
+	- when all tasks are completed the threads remain active and wait for more tasks in the thread pool
+ ThreadPoolExecutor :
+    - separates the task creation & its execution
 
 Can we start a thread twice?
 - No, After starting a thread,it can never be started again
