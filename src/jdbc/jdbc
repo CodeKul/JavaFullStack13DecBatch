@@ -1,0 +1,23 @@
+- Java Database Connectivity
+- used to connect Java Application with database
+- an API which provides some classes & interface by which we can connect Java Application with DB
+- an abstraction
+- 2 packages
+	1. java.sql
+	2. javax.sql
+
+7 Steps to connect Java application with DB
+1. import packages
+2. Load & register the driver
+	- Class.forName("com.mysql.jdbc.Driver")
+3. Connecting & establish the connection
+	- Connection con = DriverManager.getConnection("url","username","password");
+4. create statement
+	1. Statement - select
+	2. PreparedStatement - insert,update,delete,create
+	3. CallableStatement - procedure
+5. Execute the query
+	1. ResultSet executeQuery();
+6. Process the result
+7. Close the connection
+
