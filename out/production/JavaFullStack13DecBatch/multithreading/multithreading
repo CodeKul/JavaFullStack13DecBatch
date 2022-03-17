@@ -166,12 +166,18 @@ Synchronisation
 
 
 Thread Pool
+	- a group of worker threads that are waiting for task & reused many times
 	- collection of pre-initialized threads
 	- facilitates the execution of N number of tasks using the same thread
 	- when any thread completes its execution , it can pickup a new task from the queue and execute it
 	- when all tasks are completed the threads remain active and wait for more tasks in the thread pool
  ThreadPoolExecutor :
     - separates the task creation & its execution
+ Advantages
+ 1. better performance
+ 2. saves time
+ 3. no need to create a thread again & again
+ 4. easy to access
 
 Can we start a thread twice?
 - No, After starting a thread,it can never be started again
