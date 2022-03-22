@@ -14,10 +14,13 @@
 	- Connection con = DriverManager.getConnection("url","username","password");
 4. create statement
 	1. Statement - select
-	2. PreparedStatement - insert,update,delete,create
+	2. PreparedStatement
+		- insert,update,delete,create
+		- used to execute parameterized query
 	3. CallableStatement - procedure
 5. Execute the query
 	1. ResultSet executeQuery();
+	2. int executeUpdate();
 6. Process the result
 7. Close the connection
 
