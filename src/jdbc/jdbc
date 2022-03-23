@@ -32,3 +32,14 @@ JDBC Driver
 		3. Network Protocol driver
 		4. Thin Driver(fully written in JAVA)
 
+
+
+
+class Student{
+	int rollNo;
+	String name;
+	String address;
+	String class;
+	String div;
+	String schoolName;
+}
