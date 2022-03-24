@@ -34,7 +34,9 @@ JDBC Driver
 
 
 
-
+Homework:
+Transaction Management
+ACID property
 class Student{
 	int rollNo;
 	String name;
@@ -42,4 +44,11 @@ class Student{
 	String class;
 	String div;
 	String schoolName;
+}
+class StudentImpl{
+	1. Insert
+	2. Delete
+	3. Display
+	4. Update
+	5. Exit
 }
