@@ -45,3 +45,10 @@ class Student{
 	String div;
 	String schoolName;
 }
+class StudentImpl{
+	1. Insert
+	2. Delete
+	3. Display
+	4. Update
+	5. Exit
+}

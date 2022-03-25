@@ -1,0 +1,8 @@
+Generics
+ - allow us to create a single class,interface & method that can be used with different
+    data types
+ - parametrised type
+
+
+ Note:
+ 1. Generics does not work with primitive data types
