@@ -46,9 +46,11 @@ class Student{
 	String schoolName;
 }
 class StudentImpl{
-	1. Insert
-	2. Delete
-	3. Display
-	4. Update
+Menu Driven :
+	Student s = new Student('','','','')
+	1. Insert insert(s);
+	2. Delete delete by roll no
+	3. Display all details of students in proper manner
+	4. Update - by any field
 	5. Exit
 }

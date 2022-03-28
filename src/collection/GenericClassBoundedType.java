@@ -1,6 +1,5 @@
 package collection;
 
-import arrays.Student;
 
 public class GenericClassBoundedType<T extends Number> {
     void display(){

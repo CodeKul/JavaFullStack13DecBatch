@@ -3,6 +3,11 @@ Generics
     data types
  - parametrised type
 
+ Advantages:
+ 1. Code Re-usability
+ 2. Compile Time Checking
+ 3. Used with Collection
+
 
  Note:
  1. Generics does not work with primitive data types

@@ -16,7 +16,7 @@ public class Loops {
                 System.out.println("i= "+i +" & j= "+j);
             }
         }
-        //for-each loop
+        //for-each loop or enhanced for loop
         int arr[] = {1,2,3,4,5,6};
         for (int a:arr){
             System.out.println(a);

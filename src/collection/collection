@@ -4,9 +4,12 @@ Generics
  - parametrised type
 
  Advantages:
- 1. Code Reusability
+ 1. Code Re-usability
  2. Compile Time Checking
  3. Used with Collection
+
+ Collection
+    - root interface of collections framework hierarchy
 
 
  Note:
