@@ -8,6 +8,21 @@ Generics
  2. Compile Time Checking
  3. Used with Collection
 
+ Collection
+    - root interface of collections framework hierarchy
+1. List(I)
+	- an ordered collection
+	- store & access elements sequentially
+2. ArrayList(C)
+	- provides the functionality of resizable-arrays
+	- implements List(I)
+	- methods are not synchronised
 
+3. Vector(C)
+	- implements List(I)
+	- create resizable-arrays similar to ArrayList
+	- methods are synchronised
  Note:
  1. Generics does not work with primitive data types
+
+

@@ -10,7 +10,22 @@ Generics
 
  Collection
     - root interface of collections framework hierarchy
+1. List(I)
+	- an ordered collection
+	- store & access elements sequentially
+2. ArrayList(C)
+	- provides the functionality of resizable-arrays
+	- implements List(I)
+	- methods are not synchronised
 
-
+3. Vector(C)
+	- implements List(I)
+	- create resizable-arrays similar to ArrayList
+	- methods are synchronised
+4. Stack(C)
+	- elements are stored & accessed in Last In First Out(LIFO) manner
+	- elements are added to the top of the stack & removed from top of the stack
  Note:
  1. Generics does not work with primitive data types
+
+
