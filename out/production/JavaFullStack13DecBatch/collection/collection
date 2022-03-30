@@ -22,6 +22,20 @@ Generics
 	- implements List(I)
 	- create resizable-arrays similar to ArrayList
 	- methods are synchronised
+4. Stack(C)
+	- elements are stored & accessed in Last In First Out(LIFO) manner
+	- elements are added to the top of the stack & removed from top of the stack
+	- extends Vector class
+5. LinkedList(C)
+	- data structure Doubly-linked list
+	- 3 fields
+		a) prev
+			- stores an address of prev element
+		b) data
+			- stores the actual data
+		c) next
+			- stores an address of next element
+
  Note:
  1. Generics does not work with primitive data types
 
