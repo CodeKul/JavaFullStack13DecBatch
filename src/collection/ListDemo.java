@@ -10,6 +10,7 @@ public class ListDemo {
         countries.add("USA");
         countries.add("China");
         countries.add("Japan");
+        countries.add("Japan");
         System.out.println(countries);
         countries.remove("China");
         System.out.println(countries);

@@ -11,7 +11,7 @@ Generics
  Collection
     - root interface of collections framework hierarchy
 1. List(I)
-	- an ordered collection
+	- an ordered collection,follows the insertion order
 	- store & access elements sequentially
 2. ArrayList(C)
 	- provides the functionality of resizable-arrays
@@ -35,6 +35,12 @@ Generics
 			- stores the actual data
 		c) next
 			- stores an address of next element
+6. Set(I)
+	- cannot contains duplicate element
+	- added only one null value
+	- unordered collection, it does not follow the insertion order
+7. TreeSet(C)
+	- elements from tree-set are sorted
 
  Note:
  1. Generics does not work with primitive data types
