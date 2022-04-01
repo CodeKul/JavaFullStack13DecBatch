@@ -26,6 +26,7 @@ public class MySqlDbDemo1 {
             System.out.println("Email " + email);
             System.out.println("Mobile " + mobile);
         }
+        con.close();
 
     }
 }
