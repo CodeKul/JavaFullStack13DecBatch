@@ -41,8 +41,21 @@ Generics
 	- unordered collection, it does not follow the insertion order
 7. TreeSet(C)
 	- elements from tree-set are sorted
+8. LinkedHashSet(C)
+9. Queue(I)
+	- elements are stored & accessed in First In First Out(FIFO) manner
+10. Priority Queue(C)
+	- unordered
+11. Deque
+	- Double Ended Queue
+	- pronounce as Deck
+	- used as a stack or queue
+12. ArrayDeque
+	-
 
  Note:
  1. Generics does not work with primitive data types
 
 
+Homework:
+ Priority Queue
