@@ -46,13 +46,24 @@ Generics
 	- elements are stored & accessed in First In First Out(FIFO) manner
 10. Priority Queue(C)
 	- unordered
+	- not a thread safe
 11. Deque
 	- Double Ended Queue
 	- pronounce as Deck
 	- used as a stack or queue
 12. ArrayDeque
-	-
+	- not thread-safe
+	- Null elements are prohibited
 
+13. Map
+	- stored key & value pair
+	- keys are unique, values can be duplicate
+	- accepts only one null key, accepts more than one null values
+	- by using key we can access or modify the values
+14. HashMap
+	- stored key & value pair
+	- keys are unique, values can be duplicate
+	- non synchronised
  Note:
  1. Generics does not work with primitive data types
 
