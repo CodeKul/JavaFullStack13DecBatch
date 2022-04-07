@@ -55,12 +55,12 @@ Generics
 	- not thread-safe
 	- Null elements are prohibited
 
-13. Map
-	- stored key & value pair
+13. Map(I)
+	- stores key & value pair
 	- keys are unique, values can be duplicate
 	- accepts only one null key, accepts more than one null values
 	- by using key we can access or modify the values
-14. HashMap
+14. HashMap(C)
 	- stored key & value pair
 	- keys are unique, values can be duplicate
 	- non synchronised

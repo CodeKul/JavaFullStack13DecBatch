@@ -23,5 +23,6 @@ public class MapDemo {
         System.out.println("replace "+map.replace(2,"Ravi"));
         System.out.println("Elements "+map);
         //iterate
+
     }
 }
