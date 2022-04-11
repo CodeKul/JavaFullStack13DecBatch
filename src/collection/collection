@@ -64,6 +64,8 @@ Generics
 	- stored key & value pair
 	- keys are unique, values can be duplicate
 	- non synchronised
+	- doesn't maintain any order
+
 	- equals()
 	    * checks equality of 2 objects.It compares keys,whether keys are equal or not.
 	    * a method of the Object class
@@ -80,6 +82,20 @@ Generics
 		* each node has a data structure like a LinkedList
 		* more than one node can have same bucket
 	- calculating index index = hashcode(key) & (N-1)
+15. LinkedHashMap
+	- a Hashtable & linked list implementation
+	- maintains a doubly linked list running thro all of its entries
+	- follows insertion order
+	- non-synchronised
+	- maintains insertion order
+	- may contains one null key & multiple null values
+16. TreeMap
+	- a red-black tree implementation
+	- storing key-value pair in sorted order
+	- contains only unique elements
+	- cannot have a null key but it can have multiple null values
+	- non-synchronised
+	- maintains ascending order
 Hashing:
 	- process of converting an object into an integer value,The integer value helps in indexing & faster search
 
