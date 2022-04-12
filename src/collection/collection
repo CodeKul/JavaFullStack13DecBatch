@@ -96,9 +96,18 @@ Generics
 	- cannot have a null key but it can have multiple null values
 	- non-synchronised
 	- maintains ascending order
+
+17. EnumSet
+	- abstract class
+	- cannot have null element
+18. EnumMap
+	- stores key & value pair
 Hashing:
 	- process of converting an object into an integer value,The integer value helps in indexing & faster search
 
+Enum:
+	- Enumeration
+	- purpose is to represent group of constants
  Note:
  1. Generics does not work with primitive data types
 
@@ -106,3 +115,5 @@ Hashing:
 Homework:
  Priority Queue
  How hashmap works internally?
+ HashTable in collection?
+ Difference between HashTable & HashMap?
