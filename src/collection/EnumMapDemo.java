@@ -10,6 +10,6 @@ public class EnumMapDemo {
         enumMap.put(months.Jan,"January");
         enumMap.put(months.Feb,"February");
         System.out.println(enumMap);
-
+        System.out.println("contains key "+enumMap.containsKey(months.Apr));
     }
 }

@@ -102,14 +102,21 @@ Generics
 	- cannot have null element
 18. EnumMap
 	- stores key & value pair
+
 Hashing:
 	- process of converting an object into an integer value,The integer value helps in indexing & faster search
 
 Enum:
 	- Enumeration
 	- purpose is to represent group of constants
+	- a data type which contains a fixed set of constants
+
+Collections:
+	- consists exclusively of static methods
+
  Note:
  1. Generics does not work with primitive data types
+ 2. String class & wrapper classes are implements the Comparable interface.
 
 
 Homework:
@@ -117,3 +124,4 @@ Homework:
  How hashmap works internally?
  HashTable in collection?
  Difference between HashTable & HashMap?
+ Difference between Collection, Collections, collection
