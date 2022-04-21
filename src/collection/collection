@@ -111,8 +111,21 @@ Enum:
 	- purpose is to represent group of constants
 	- a data type which contains a fixed set of constants
 
+
 Collections:
 	- consists exclusively of static methods
+
+Comparable:
+	-  java.lang
+	- having only one method i.e int compareTo()
+	- provides single sorting sequence
+Comparator:
+	- java.util
+	- order the objects
+	- having two methods
+		a) int compare()
+		b) boolean equals()
+	- provides multiple sorting sequence
 
  Note:
  1. Generics does not work with primitive data types
@@ -125,3 +138,29 @@ Homework:
  HashTable in collection?
  Difference between HashTable & HashMap?
  Difference between Collection, Collections, collection
+ Difference Between Comparable & Comparator
+ Explain equals() & hashcode()
+
+ Create Class Emp{
+    Integer empId;
+    String name;
+    String mobile;
+ }
+ class EmpImp{
+    main(){
+        list 1 = add the data;
+        list 2 = unique records
+
+    }
+ }
+eg
+list 1
+ 1  A   986
+ 2  B   456
+ 3  C   258
+ 4  D   986
+
+list 2
+ 1  A   986
+ 2  B   456
+ 3  C   258

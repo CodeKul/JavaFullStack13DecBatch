@@ -111,8 +111,21 @@ Enum:
 	- purpose is to represent group of constants
 	- a data type which contains a fixed set of constants
 
+Difference Between:
 Collections:
 	- consists exclusively of static methods
+
+Comparable:
+	-  java.lang
+	- having only one method i.e int compareTo()
+	- provides single sorting sequence
+Comparator:
+	- java.util
+	- order the objects
+	- having two methods
+		a) int compare()
+		b) boolean equals()
+	- provides multiple sorting sequence
 
  Note:
  1. Generics does not work with primitive data types
