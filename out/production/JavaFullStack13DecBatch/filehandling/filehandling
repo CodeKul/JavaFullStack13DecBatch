@@ -1,0 +1,4 @@
+- java.io
+- File class can be creating an object of class
+- for reading & writing data to a file
+- store the output of particular application in a file

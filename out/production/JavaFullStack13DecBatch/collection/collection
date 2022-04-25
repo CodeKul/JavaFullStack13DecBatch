@@ -111,7 +111,7 @@ Enum:
 	- purpose is to represent group of constants
 	- a data type which contains a fixed set of constants
 
-Difference Between:
+
 Collections:
 	- consists exclusively of static methods
 
@@ -138,3 +138,29 @@ Homework:
  HashTable in collection?
  Difference between HashTable & HashMap?
  Difference between Collection, Collections, collection
+ Difference Between Comparable & Comparator
+ Explain equals() & hashcode()
+
+ Create Class Emp{
+    Integer empId;
+    String name;
+    String mobile;
+ }
+ class EmpImp{
+    main(){
+        list 1 = add the data;
+        list 2 = unique records
+
+    }
+ }
+eg
+list 1
+ 1  A   986
+ 2  B   456
+ 3  C   258
+ 4  D   986
+
+list 2
+ 1  A   986
+ 2  B   456
+ 3  C   258
