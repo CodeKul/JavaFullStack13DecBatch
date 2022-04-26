@@ -2,3 +2,51 @@
 - File class can be creating an object of class
 - for reading & writing data to a file
 - store the output of particular application in a file
+- abstract data type
+- create a new file, read,write,delete
+
+Streams :
+- a sequence/series of data
+Types of Streams
+1.Input Stream
+	- super class of all classes representing an input stream of bytes.
+	- abstract class
+	- used to read data from keyboard,network
+	1. AudioInput Stream
+	2. ByteArrayInputStream
+	3. FileInputStream
+	4. FilterInputStream
+	5. StringBufferInputStream
+	6. ObjectInputStream
+	Method:
+	1. read()
+	2. mark()
+	3. available()
+	4. reset()
+	5. read(byte []array)
+	6. skips()
+	7. close()
+	8. markSupported()
+
+2.Output Stream
+	- used to write data to output devices
+	- abstract class
+	1. ByteArrayOutputStream
+	2. FileOutputStream
+	3. StringBufferOutputStream
+	4. ObjectOutputStream
+	5. DataOutputStream
+	6. PrintStream
+	Method:
+	1. write()
+	2. write(byte[]array)
+	3. close()
+	4. flush()
+Stream Type
+1. Byte Stream
+	- byte data
+
+2. Character Stream
+	- character data
+
+
