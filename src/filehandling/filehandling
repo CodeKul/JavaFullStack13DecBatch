@@ -50,3 +50,10 @@ Stream Type
 	- character data
 
 
+Difference between BufferedWriter & FileWriter?
+Menu Driven:
+1. create new file  - custom exception /simple msg
+2. write
+3. read
+4. exit
+

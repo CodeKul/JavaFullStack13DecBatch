@@ -8,8 +8,9 @@ public class BufferedWriterDemo {
         try {
             fileWriter = new FileWriter("/home/madhuri/workspace/2021/JavaFullStack13DecBatch/src/filehandling/sample.txt");
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-            bufferedWriter.write("Today is Thursday");
+            bufferedWriter.write("Today is Saturday");
             bufferedWriter.close();
+            fileWriter.close();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

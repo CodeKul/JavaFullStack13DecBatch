@@ -8,9 +8,9 @@ public class FileWriterDemo {
     public static void main(String[] args) {
         try {
             FileWriter fileWriter = new FileWriter("/home/madhuri/workspace/2021/JavaFullStack13DecBatch/src/filehandling/input.txt");
-          //  fileWriter.write("Happy New Year!!!!");
-          //  fileWriter.write("\nWelcome to 2022!!");
-            fileWriter.write("Welcome");
+            fileWriter.write("Happy New Year!!!!");
+            fileWriter.write("\nWelcome to 2022!!");
+            fileWriter.write("\nWelcome");
             fileWriter.close();
             System.out.println("Content gets added");
         }catch (IOException i){
@@ -22,11 +22,12 @@ public class FileWriterDemo {
             try {
                 FileReader  fileReader = new FileReader("/home/madhuri/workspace/2021/JavaFullStack13DecBatch/src/filehandling/input.txt");
                 int i = fileReader.read();
-                System.out.println("i: "+i);
+                System.out.print("i: "+i);
                 while (i>0){
                     //System.out.println("i: "+i);
                     System.out.print((char) i);
                     i = fileReader.read();
+                    System.out.print(" "+i);
                 }
                 fileReader.close();
             } catch (IOException e) {
