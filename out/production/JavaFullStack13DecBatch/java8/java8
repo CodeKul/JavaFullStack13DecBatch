@@ -1,0 +1,23 @@
+- release March 14
+
+Features:
+1. forEach() method
+	- Iterable interface
+
+2. default & static methods in interface
+	- allow interface to have methods with implementation without affecting the classes
+	that implement the interface
+
+3. Functional Interface & Lambda Expressions
+
+4. Stream API
+
+5. Java Time API
+
+6. Collection API improvement
+
+7. Concurrency API improvement
+
+8. I/O improvement
+
+
