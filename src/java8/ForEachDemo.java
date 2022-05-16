@@ -1,8 +1,7 @@
 package java8;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
+import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 
 public class ForEachDemo {
@@ -32,6 +31,25 @@ public class ForEachDemo {
         //consumer implementation
         TestConsumer testConsumer = new TestConsumer();
         list.forEach(testConsumer);
+
+        Map<String,String> map = new HashMap<>();
+        map.put("1","C");
+        map.put("2","C++");
+        map.put("3","Java");
+        map.put("4","JavaScript");
+        map.put("5","Python");
+        //Before Java 8
+        for (Map.Entry<String,String> m : map.entrySet()){
+            System.out.println("Key: "+m.getKey() + " Value: "+m.getValue());
+        }
+        //Java 8
+        System.out.println("Java 8");
+        map.forEach(new BiConsumer<String, String>() {
+            @Override
+            public void accept(String s, String s2) {
+                System.out.println("Key: "+s + " Value: "+s2);
+            }
+        });
     }
 }
 

@@ -21,6 +21,6 @@ class TestInterface implements I1{
         TestInterface testInterface = new TestInterface();
         testInterface.m1("I'm abstract");
         testInterface.m2("I'm default");
-
+        I1.m3("I'm static");
     }
 }

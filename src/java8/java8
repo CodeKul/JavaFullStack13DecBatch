@@ -5,10 +5,21 @@ Features:
 	- Iterable interface
 
 2. default & static methods in interface
+	default method:
 	- allow interface to have methods with implementation without affecting the classes
 	that implement the interface
+	- Default  methods are also known as Defender methods or virtual extension methods
+	- provide backward compatibility so existing interfaces can use without implementing the
+	default methods in the class
+	static method:
+
 
 3. Functional Interface & Lambda Expressions
+	- an interface with exactly one abstract method
+	- it is not mandatory to use annotation but we can use functional interface to avoid
+	addition of extra methods
+	- benefit of java 8 functional interfaces is that we can use lambda expressions
+	-
 
 4. Stream API
 
@@ -21,3 +32,22 @@ Features:
 8. I/O improvement
 
 
+Homework:
+1.
+interface I1{
+	default void display(){
+		// lines of code
+	}
+}
+interface I2{
+	default void display(){
+		// lines of code
+	}
+}
+class TestInterface implements I1,I2{
+	main(){
+		//lines of code
+	}
+}
+
+Addition of two nos using java 8
