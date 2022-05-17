@@ -21,13 +21,16 @@ Features:
 	- benefit of java 8 functional interfaces is that we can use lambda expressions
 	-
 
-4. Stream API
+4. Method Reference
+	- prerequisites are functional interface & lambda
+5. Optional
+6. Stream API
 
-5. Java Time API
+7. Java Time API
 
-6. Collection API improvement
+8. Collection API improvement
 
-7. Concurrency API improvement
+9. Concurrency API improvement
 
 8. I/O improvement
 
@@ -49,3 +52,5 @@ class TestInterface implements I1,I2{
 		//lines of code
 	}
 }
+
+Addition of two nos using java 8
