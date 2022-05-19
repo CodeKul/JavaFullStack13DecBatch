@@ -1,5 +1,5 @@
 package java8;
-
+@FunctionalInterface
 public interface LambdaExpressionDemo {
     void add(Integer a1,Integer a2);
 }

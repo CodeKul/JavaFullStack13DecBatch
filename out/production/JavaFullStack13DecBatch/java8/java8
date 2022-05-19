@@ -17,12 +17,18 @@ Features:
 3. Functional Interface & Lambda Expressions
 	- an interface with exactly one abstract method
 	- it is not mandatory to use annotation but we can use functional interface to avoid
-	addition of extra methods
+	addition of extra abstract methods
 	- benefit of java 8 functional interfaces is that we can use lambda expressions
-	-
+	- used to refer method of functional interface
 
 4. Method Reference
-	- prerequisites are functional interface & lambda
+	- prerequisites are functional interface & lambda exp
+	- we can replace lambda exp with method ref
+	Types of Method References
+	1. Reference to a static method
+	2. Reference to an instance method
+	3. Reference to a constructor
+
 5. Optional
 6. Stream API
 

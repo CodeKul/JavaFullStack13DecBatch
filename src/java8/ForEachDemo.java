@@ -14,6 +14,7 @@ public class ForEachDemo {
         list.add(15);
         list.add(16);
         list.add(17);
+        System.out.println();
         //traversing an array
         Iterator<Integer> iterator = list.iterator();
         while (iterator.hasNext()){
