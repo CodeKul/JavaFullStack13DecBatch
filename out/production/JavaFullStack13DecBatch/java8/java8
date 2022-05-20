@@ -30,7 +30,14 @@ Features:
 	3. Reference to a constructor
 
 5. Optional
+	- it's a final class
+	- to deal with NullPointerException
+	- to avoid abnormal termination of application
+	- java.util package
+
 6. Stream API
+	-  from java.util.stream package
+	- it does not store elements
 
 7. Java Time API
 
