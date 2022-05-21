@@ -46,16 +46,24 @@ public class StreamApiDemo1 {
         students.add(new Student(4L,"A4",72d));
         students.add(new Student(5L,"A4",65d));
         //without stream
-        for (Student str3:students)
-            if (str3.getPercentage()>70){
-                System.out.println("Student Name: "+str3.getName());
-                System.out.println("Student percentage: "+str3.getPercentage());
+        for (Student str3:students) {
+            if (str3.getPercentage() > 70) {
+                System.out.println("Student Name: " + str3.getName());
+                System.out.println("Student percentage: " + str3.getPercentage());
             }
-
+        }
+        //Java 8
        List<Student> stud = students
                 .stream()
                 .filter(p -> p.getPercentage() > 70)
                 .collect(Collectors.toList());
+
+       List<String> studNames =  students.stream().filter(p->p.getPercentage() > 70)
+                        .map(Student :: getName)
+                                .collect(Collectors.toList());
+       List<Long> studIds = students.stream().filter(p -> p.getPercentage() > 70)
+                       .map(Student :: getId)
+                               .collect(Collectors.toList());
         System.out.println(stud);
 
     }
