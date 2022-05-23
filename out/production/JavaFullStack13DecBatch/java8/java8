@@ -36,7 +36,7 @@ Features:
 	- java.util package
 
 6. Stream API
-	-  from java.util.stream package
+	- from java.util.stream package
 	- it does not store elements
 
 7. Java Time API
