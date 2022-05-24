@@ -47,6 +47,10 @@ Features:
 
 8. I/O improvement
 
+Base64
+- java.util
+
+
 Interfaces:
 1. Consumer
 2. BiConsumer
