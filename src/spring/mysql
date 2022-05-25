@@ -1,0 +1,40 @@
+- a Relational Database Management System bases on Structured Query Language
+
+Database
+	- an application that stores the organised collection of records
+Types:
+Relational                              Non-Relational
+1. eg. Oracle,MySql,                    1. MongoDb
+	MS Sql,Postgres
+2. data stored in table                 2. data stored in document format
+	format
+3. structured                           3. structured/unstructured
+
+ACID Properties?
+
+MySql Features
+	- open source database
+	- powerful
+	- secure
+	- scalable
+	- allows roll-back
+	- faster
+
+Primary Key - used for column uniqueness
+distinct - retrieve non-duplicate(unique) values of column
+order by - to sort the records
+group by - group the result
+Aggregation functions - SUM(),AVG(),MIN(),MAX(),COUNT()
+Having
+Queries:
+1. show users
+	select user from mysql.user;
+2. use db
+	use mysql;
+3. show tables;
+4. desc user;
+5. create user admin@localhost identified by 'Abc@1234';
+6. select * from user where user = 'admin';
+7. drop user admin@localhost;
+8. create database employeedb;
+9. show databases;
