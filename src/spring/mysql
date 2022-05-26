@@ -20,12 +20,28 @@ MySql Features
 	- allows roll-back
 	- faster
 
+
 Primary Key - used for column uniqueness
 distinct - retrieve non-duplicate(unique) values of column
 order by - to sort the records
 group by - group the result
 Aggregation functions - SUM(),AVG(),MIN(),MAX(),COUNT()
 Having
+
+SQL Joins :
+- joins returns the records present in both tables
+1. Inner Join
+	- returns the matching records from both tables
+2. Left or Left Outer Join
+	- returns all the records from left table and match rows from right table
+3. Right or Right Outer Join
+	- returns all the records from right table and match rows from left table
+4. Cross Join
+	- does not require any common column to join two tables.
+	- cartesian product means no of rows present in table 1 multiplied by
+	  number of rows present in Table 2
+
+
 Queries:
 1. show users
 	select user from mysql.user;
@@ -38,3 +54,16 @@ Queries:
 7. drop user admin@localhost;
 8. create database employeedb;
 9. show databases;
+10. select e.empno,e.ename  employeeName,d.dname from emp e inner join dept d
+    on e.deptno = d.deptno where e.deptno = 40
+11. select * from emp e left join dept d
+    on e.deptno = d.deptno
+12. select * from emp e right join dept d
+    on e.deptno = d.deptno
+13. INSERT INTO emp VALUES(6525, 'Abhay', 'HR', 7566,'1990-01-14',2500, null, null)
+14. select * from emp e cross join dept d
+
+
+Questions:
+1. fetch records having job 'SalesManager' with associate empno,ename,total salary(sal+comm),
+	dept name & location.
