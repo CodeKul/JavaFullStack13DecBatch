@@ -62,8 +62,11 @@ Queries:
     on e.deptno = d.deptno
 13. INSERT INTO emp VALUES(6525, 'Abhay', 'HR', 7566,'1990-01-14',2500, null, null)
 14. select * from emp e cross join dept d
-
+15. select * from emp where deptno = (select deptno from dept where dname = 'RESEARCH')
 
 Questions:
 1. fetch records having job 'SalesManager' with associate empno,ename,total salary(sal+comm),
 	dept name & location.
+--> select e.job,e.empno,e.ename,IFNULL(e.sal,0) + IFNULL(e.comm,0) as totalSalary,d.dname,d.loc from emp e inner join dept d
+    on e.deptno = d.deptno where e.job = 'MANAGER';
+
