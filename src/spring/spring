@@ -1,0 +1,30 @@
+framework
+ - reuse pre-written code(templates)
+
+Spring
+	- powerful & lightweight application development framework
+	-  a framework of frameworks because it supports various framework like struts,
+	hibernate,EJB & JSF
+
+Features
+1. Lightweight
+2. Inversion of Control(IoC)
+	- loosely coupling
+3. Aspect Oriented Programming(AOP)
+	- by separating the application business logic from system service
+4. Container
+	- creates & manages life of cycle & configuration of application objects
+5. MVC Framework
+	- configurable via interface & accommodates multiple view technologies
+6. Transaction Management
+	- provides a generic abstraction layer
+
+Why we used Spring?
+1. works on POJO(Plain Old Java Object)
+		by using this our application will be lightweight
+2. predefined templates for JDBC,Hibernate,JPA
+3. Because of Dependency Injection(DI), our code becomes loosely coupled
+4. development becomes faster
+5. supports for transaction,validation,caching
+
+Spring Framework Architecture
