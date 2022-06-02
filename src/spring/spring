@@ -28,3 +28,27 @@ Why we used Spring?
 5. supports for transaction,validation,caching
 
 Spring Framework Architecture
+1. Test
+	- layer provides support of testing with JUnit & TestNG
+2. Core Container
+	- contains core,beans,context & SpEL
+	a) core & beans
+		- provides IoC & DI features
+	b) Context
+		- supports internationalization(118N),EJB,JMS,Basic Remoting
+	d) SpEL(Expression Language)
+		- provides support to setting & getting property values, methods invocation,
+		accessing the collections,logical & arithmetic operators, retrieval of objects by name
+3. AOP
+	- use Advices, Pointcuts to decouple the code
+4. Aspect
+    - support to integration with AspectJ
+5. Instrumentation
+	- support to class instrumentation
+6. Messaging
+7. Data Access/Integration
+	- contains JDBC,ORM,OXM,JMS & Transaction
+	- provides support to interact with database
+8. Web
+	- contains WebSocket,Web,Servlet & Portlet
+	- provides support to create a web application
